@@ -8,6 +8,12 @@
 
 Значение метрики RMSE на тестовой выборке должно быть не больше 48.
 
+## Итог:
+
+- Было обученно 3 модели: LinearRegressor, DecisionTreeRegressor, CatBoostRegressior, а так же DummyRegressor, для проверки моделей на адекватность.
+- Самой точной по метрике RMSE оказалась LinearRegressor (RMSE = 25.097).
+- Результат выбранной модели на тестовой выборке (RMSE = 42.583).
+
 ## Стек технологий:
 
 Pandas, matplotlib, numpy, scikit-learn, seaborn, CatBoost, XGBoost, LightGBM
