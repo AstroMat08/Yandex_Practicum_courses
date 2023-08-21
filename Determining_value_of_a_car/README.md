@@ -12,6 +12,10 @@
 - скорость предсказания;
 - время обучения.
 
+## Итог:
+
+Было обученно четыре модели DecisionTreeRegressor, CatBoostRegressor и LGBMRegressor. В ходе анализа полученных результатов, было выясненно что оптимальной моделью для данной задачи является CatBoostRegressor (RMSE = 16.22, t = 1min 50s)
+
 ## Стек технологий:
 
 Pandas, matplotlib, numpy, scikit-learn, seaborn, CatBoost, XGBoost, LightGBM
